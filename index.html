@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> ☆°•Student Study Planner•°☆ </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="main">
+
+    <!-- IMAGE SIDE -->
+    <div class="image-section">
+        <img src="study.jpg" alt="Study Image">
+    </div>
+
+    <!-- PLANNER SIDE -->
+    <div class="container">
+        <h2>Smart Study Planner</h2>
+
+        <input type="text" id="subject" placeholder="Subject">
+        <input type="text" id="task" placeholder="Task">
+        <input type="date" id="dueDate">
+        <button class="add-btn" onclick="addTask()">Add Task</button>
+
+        <div id="taskList"></div>
+
+        <div class="counter">
+            Total Tasks: <span id="total">0</span> |
+            Completed: <span id="completed">0</span>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
