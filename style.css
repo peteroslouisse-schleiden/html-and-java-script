@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px;
-    color: #87004d;
+    color: #9b0e21;
 }
 
 .main {
@@ -15,7 +15,7 @@ body {
 }
 
 .image-section img {
-    width: 350px;
+    width: 500px;
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
 }
@@ -23,8 +23,8 @@ body {
 .container {
     background: #fcf3b9;
     padding: 40px;
-    width: 400px;
-    border-radius: 10px;
+    width: 500px;
+    border-radius: 30px;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
 }
 
@@ -78,4 +78,4 @@ button {
 .counter {
     margin-top: 10px;
     font-size: 14px;
-}
+}    
